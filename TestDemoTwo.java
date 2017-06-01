@@ -10,7 +10,7 @@ public class TestDemoTwo {
 		System.out.print("Enter Marks :");
 		int marks = sc.nextInt();
 		 
-		
+		//block for age less than 15
 		if(age< 15){
 			if(marks>60){
 				System.out.println("Grade A");
@@ -21,6 +21,7 @@ public class TestDemoTwo {
 			else 
 				System.out.println("Grade c");
 		}
+		//block for age greater than equal to 15
 		else{
 			if(marks >70)
 				System.out.println("Grade A");
